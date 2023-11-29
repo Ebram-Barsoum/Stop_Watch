@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+
+    <!-- Font awesome library online -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    <!--Bootstrap File-->
+    <link rel="stylesheet" href="cssHub/bootstrap.min.css">
+
+    <!--Css main file-->
+    <link rel="stylesheet" href="cssHub/style.css">
+</head>
+<body class=" bg-black ">
+    <div class="app container d-flex justify-content-center align-items-center vh-100 ">
+        <div class="content bg-danger p-5 d-flex flex-column justify-content-center gap-3 border border-1 border-body rounded-3">
+            <h1 class="header text-light fw-bold">
+                <i class="fa-solid fa-stopwatch"></i>
+                Stop Watch
+            </h1>    
+            <div class="watch text-center py-3 fw-bold fs-2" id="watch">00:00.00</div>
+            <div class="btns d-flex justify-content-center gap-3">
+                <button type="button" class="start btn btn-dark fw-bold  border border-1 border-body px- w-50 " id="start-btn">Start</button>
+                <button type="button" class="stop btn btn-dark fw-bold  border border-1 border-body px-3 d-none w-50 " id="stop-btn">Stop</button>
+                <button type="button" class="reset btn btn-dark fw-bold border border-1 border-body px-3 d-none w-50 " id="reset-btn">Reset</button> 
+            </div>
+        </div>
+    </div>
+
+    
+     <!--Bootstrap Bundle File-->
+     <script src="jsHub/bootstrap.bundle.min.js"></script>
+     <!--Main js file-->
+    <script src="jsHub/main.js"></script>
+</body>
+</html>
